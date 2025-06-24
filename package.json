@@ -2,6 +2,9 @@
   "name": "bingo-back-end",
   "version": "1.0.0",
   "scripts": {
+    "build": "tsc",
+    "prisma:migrate:deploy": "prisma migrate deploy",
+    "start": "npm run prisma:migrate:deploy && node dist/src/server.js",
     "dev": "ts-node-dev src/server.ts",
     "test:load-envs": "dotenv -e .env.test",
     "test": "npm run test:load-envs -- jest -- --runInBand",
