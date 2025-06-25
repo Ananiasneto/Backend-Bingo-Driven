@@ -1,5 +1,12 @@
 
-# README - Execução do Projeto com Docker (sem Docker Compose)
+# Link deploy:
+---
+
+https://backend-bingo-driven.onrender.com 
+
+---
+
+# Execução do Projeto
 
 Siga os passos abaixo para rodar seu backend com PostgreSQL usando Docker.
 
@@ -69,7 +76,7 @@ docker run -d \
 
 ---
 
-### Rodar a aplicação com Docker Compose
+# Rodar a aplicação com Docker Compose
 
 No terminal, no mesmo diretório do `docker-compose.yml`, execute:
 
@@ -78,7 +85,7 @@ docker compose up -d --build
 ```
 
 
-### 2. Parar a aplicação
+## Parar a aplicação
 
 Para derrubar os containers criados pelo Compose:
 
