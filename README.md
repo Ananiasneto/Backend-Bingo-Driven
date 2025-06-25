@@ -78,7 +78,11 @@ docker run -d \
 
 # Rodar a aplicação com Docker Compose
 
-No terminal, no mesmo diretório do `docker-compose.yml`, execute:
+No terminal, no mesmo diretório do `docker-compose.yml`:
+
+---
+crie seu arquivo .env com as variaveis do .env.exemple e execute
+---
 
 ```bash
 docker compose up -d --build
