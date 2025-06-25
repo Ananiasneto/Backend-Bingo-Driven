@@ -3,7 +3,7 @@ services:
     image: postgres
     container_name: postgres
     ports:
-      - 5432:5432
+      - 5433:5432
     env_file:
       - .env.test
     healthcheck:
@@ -13,7 +13,7 @@ services:
       retries: 5
 
   backend:
-    image: backend-bingo-driven-
+    image: backend-bingo-driven
     container_name: backend-bingo-driven
     build:
       context: .
